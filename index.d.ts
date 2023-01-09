@@ -32,6 +32,7 @@ declare namespace directoryTree {
     extensions?: RegExp;
     followSymlinks?: boolean;
     depth?: number;
+    hideEmptyDirs?:boolean;
   }
 
   export type DirectoryTreeCallback<TCustom extends Record<string, any> = Record<string, any>> = (
